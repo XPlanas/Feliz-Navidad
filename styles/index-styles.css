@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(135, 3, 3);
+    margin: 0;
+    padding: 0;
+}
+
+#portada {
+    background-image: url('https://i.makeagif.com/media/12-08-2017/DHYa0t.gif');
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    z-index: -1;
+}
+
+#overlay-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: antiquewhite;
+    font-size: 100px;
+    font-family: 'Pinyon Script', cursive;
+    text-shadow: 0 0 10px black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#video {
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+    align-content: space-evenly;
+}
+
+.texto {
+    width: 50%;
+    color: antiquewhite;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 0 0 10px black;
+    text-align: center;
+    padding: 30px;
+}
+
+.videoplayer {
+    width: 50%;
+}
