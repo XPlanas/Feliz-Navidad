@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgb(135, 3, 3);
+            margin: 0;
+            padding: 0;
+        }
+
+        #portada {
+            background-image: url('https://i.makeagif.com/media/12-08-2017/DHYa0t.gif');
+            background-size: cover;
+            height: 100vh;
+            padding: 0;
+            margin: 0;
+            z-index: -1;
+        }
+
+        #overlay-text {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: antiquewhite;
+            font-size: 100px;
+            font-family: 'Pinyon Script', cursive;
+            text-shadow: 0 0 10px black;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #video {
+            display: flex;
+            padding: 20px;
+            gap: 30px;
+            align-content: space-evenly;
+        }
+
+        .texto {
+            width: 50%;
+            color: antiquewhite;
+            font-family: 'Playfair Display', serif;
+            text-shadow: 0 0 10px black;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .videoplayer {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="portada">
+        <h1 id="overlay-text">Feliz Navidad</h1>
+    </section>
+    <section id="video">
+        <div class="texto">
+            <p>Queridos miembros del equipo del San José Obrero,
+
+                En esta mágica temporada de Navidad, quiero expresar mi sincero agradecimiento por su dedicación y arduo
+                trabajo a lo largo del año. Vuestra labor en el San José Obrero ha sido fundamental para el bienestar de
+                nuestra comunidad y para alcanzar nuestros objetivos comunes.
+
+                En estos días festivos, celebremos los logros alcanzados y compartamos la alegría de la temporada. Que
+                la luz de la Navidad ilumine vuestros corazones y hogares, brindándoos paz, amor y felicidad. Que el
+                próximo año esté lleno de nuevas oportunidades y éxitos para todos nosotros.
+
+                Feliz Navidad y próspero Año Nuevo. ¡Gracias por formar parte de la familia del San José Obrero!
+            <p>
+                <strong>Con gratitud, Beatriz Morales Jefesita en el San José Obrero</strong>
+            </p>
+        </div>
+        <div class="videoplayer"><iframe width="560" height="315"
+                src="https://www.youtube.com/embed/aAkMkVFwAoo?si=4BZ_rYrEf6T-hFyt" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe></div>
+
+    </section>
+    <!-- <video width="320" height="240" autoplay>
+        <source src="tomp3.cc - Mariah Carey  All I Want for Christmas Is You Make My Wish Come True Edition_720p.mp4" type="video/mp4">
+        <source src="resources\tomp3.cc - Mariah Carey  All I Want for Christmas Is You Make My Wish Come True Edition_720p.mp4" type="video/ogg">
+      Your browser does not support the video tag.
+    </video>    -->
+</body>
+
+</html>
